@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.mainSection,header{
+    background: #1F2937;
+    color: white;
+    
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.leftLink,.rightLink{
+    display: flex;
+    padding-right: 400px;
+    margin-right: auto;
+}
+.leftLink{
+    padding-left: 10px;
+}
+.rightLink{
+    justify-content: flex-end;
+    gap: 10px;
+    padding-right: 50px;
+}
+.mainSection{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.mainSection .firstHalf,.mainSection .spongebobImage{
+    flex: 1;
+    padding: 50px 50px;
+
+}
+.mainSection .spongebobImage{
+    padding-right: 500px;
+    display: flex;
+    justify-content: flex-end;
+}
+.firstHalf{
+    font-size: 20px;
+    padding: 10px;
+}
+.secondSection,.thirdSection{
+    display: flex;
+}
+.someRando{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.thirdSection, .thirdSection *{
+    background-color: lightgray;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+  
+}
+.thirdSection h1{
+    padding: 30px;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+}
+.thirdSection span{
+    padding-left: 500px;
+}
+.fourthSection main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 900px;
+    background-color: lightblue;
+    border-radius: 25px;
+
+}
+
+.fourthSection{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.rightButton{
+    padding-left: 200px;
+}
+footer{
+    display: flex;
+    background: navy;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    color: white;
+}
+.fourthSection h2, .fourthSection p{
+    color: white;
+}
